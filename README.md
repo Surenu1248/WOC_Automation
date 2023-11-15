@@ -24,9 +24,25 @@ Prerequisite’s
 
 Trigger this on every **Monday**
 
-1) 
+1) Make sure the line 95 should contain the following code
 
+```
+   var WOCDateMinus5 = new Date(WOCDate.getTime()-5*(24*3600*1000));
+```
 
+2) Similarly line 100 should be
+
+```
+   if(todayDate == WOCDateMinus5 && dayInNumber == 1)
+```
+
+3) Deploy the changes.
+ 
+4) Now Select 'Triggers' [ left side 4th option ]
+
+5) Click on 'Add Trigger' and fill the details as per below and save it.
+
+   ![Screenshot 2023-11-16 at 12 54 53 AM](https://github.com/Surenu1248/WOC_Automation/assets/31179719/a443c36a-e11d-49f4-8264-a46a3f8fdd4c)
 
 
 
