@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body{padding: 30px; background-color:'sky-blue';}
+    /* Add CSS for responsiveness */
+    table {
+      width: 50%;
+      border-collapse: collapse;
+      overflow-x: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align: left;"> You are currently scheduled to be on call for this Weekend!  &#x1F918; </h2>
+  <h3> &#128073; Please make sure to apply weekoff's accordingly. </h3>
+  <table>
+    <tr>
+      <th>WOC Dates</th>
+      <th>Week Off Dates</th>
+    </tr>
+    <tr>
+      <td><?= wocDate1 ?></td>
+      <td><?= woDate1 ?></td>
+    </tr>
+    <tr>
+      <td><?= wocDate2 ?></td>
+      <td><?= woDate2 ?></td>
+    </tr>
+  </table>
+
+  <h3> <b>Useful Resources</b> </h3>
+    <hr>
+    <h4> &#8594; <b><a href="https://salesforce.quip.com/DsayAuNba8d5">Signature Weekend On Call Quip </a></b></h4>
+
+</body>
+</html>
+
+
+
+
+
+
