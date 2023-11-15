@@ -12,8 +12,9 @@ Prerequisite’s
 
 2) Open the AppScript and create a new file with '.gs' exetension. Copy paste the 'Code.gs' file code and save it [ attached to the main branch ]
    a) Provide your sheet name on line no: 3
-
+      ```
      "var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("WOC");"
+      ```
    
 3) Similary create a new file with '.html' extension. Copy paste the 'EmailOutput.html' file code and save it [ attached to the main branch ]
 
