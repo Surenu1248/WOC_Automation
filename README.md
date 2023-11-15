@@ -19,3 +19,15 @@ Prerequisite’s
    
 4) Similary create a new file with '.html' extension. Copy paste the 'EmailOutput.html' file code and save it [ attached to the main branch ]
 
+
+#Scenario 1
+Trigger this on every **Monday**
+1) 
+
+
+
+
+
+
+
+
